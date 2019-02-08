@@ -14,8 +14,9 @@ Usage: sim = godiva(length,condition)
                        'DA'     - elevated dopamine levels
                        'WMF'    - what matter fibers impairment
 
-  Output: plot of the results (generated with 
-          sim - the simulation results
+  Output: plot of the results
+          
+	  sim - the simulation results
 	  
                    sim.output (neural activation over time)
 		   
