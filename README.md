@@ -30,19 +30,22 @@ Usage:
 
   Next step: 
   
-  	     run plot_all to show output of simulation
+	run plot_all to show output of simulation
   
-             run plot_colors to show important info on simulation
-	     
-             run BOLD/plot_response to plot hemodynamic response
+  	run plot_colors to show important info on simulation
+	 
+	run BOLD/plot_response to plot hemodynamic response
 
   Config files: 
+			
 			1) Global_parameters.m includes the parameters used for each condition, as well as the utterance to be produced.
 
 			2) ./defaults subdirectory includes a .mat for every component in the model. The file specifies the A and B parameters for all shunting equations used. The defaults can be overriden by including a .mat file with the same name in the ./custom subdirectory (but without the 'default_' prefix).
 
 Author: Oren Civier
+
 Version: 2.01
+
 Date: 26/12/2011
 
 REFERENCES:
