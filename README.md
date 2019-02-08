@@ -1,6 +1,6 @@
 #  Extended GODIVA model
 
-An extended version of the neuro-computational model GODIVA. Includes a basal ganglia (BG) - ventral premotor cortex (vPMC) loop that serves to select and initiates the correct syllables and in a timely manner.
+An extended version of the neuro-computational model GODIVA. Includes a basal ganglia (BG) - ventral premotor cortex (vPMC) loop that serves to select and initiate the correct syllables and in a timely manner.
 
 The code was used for the simulations of developmental stuttering resulting from elevated dopamine levels and impaired corticostriatal  projects (Civier et al., 2013).
 
