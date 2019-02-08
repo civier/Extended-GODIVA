@@ -16,12 +16,17 @@ Usage: sim = godiva(length,condition)
 
   Output: plot of the results (generated with 
           sim - the simulation results
+	  
                    sim.output (neural activation over time)
+		   
                    sim.model (the paramaters of the model)
+		   
                    sim.time (time steps used)
 
   Next step: run plot_all to show output of simulation
+  
              run plot_colors to show important info on simulation
+	     
              run BOLD/plot_response to plot hemodynamic response
 
   Config files: 
@@ -35,6 +40,6 @@ Date: 26/12/2011
 
 REFERENCES:
   
-Bohland, J. W., Bullock, D., and Guenther, F. H. (2010) Neural representations and mechanisms for the performance of simple speech sequences. Journal of Cognitive Neuroscience , 22(7), pp. 1504–1529.
+Bohland, J. W., Bullock, D., and Guenther, F. H. (2010) Neural representations and mechanisms for the performance of simple speech sequences. Journal of Cognitive Neuroscience , 22(7), pp. 1504â€“1529.
 
-Civier, O., Bullock, D., Max, L., and Guenther, F. H. (2013) Computational modeling of stuttering caused by impairments in a basal ganglia thalamo-cortical circuit involved in syllable selection and initiation. Brain and Language, 126(3), 263–278
+Civier, O., Bullock, D., Max, L., and Guenther, F. H. (2013) Computational modeling of stuttering caused by impairments in a basal ganglia thalamo-cortical circuit involved in syllable selection and initiation. Brain and Language, 126(3), 263â€“278
