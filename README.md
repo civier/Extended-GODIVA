@@ -6,7 +6,9 @@ The code was used for the simulations of developmental stuttering resulting from
 
 The code implements the formulas given in the supplementary material of Civier et al. (2013). Each component has a function that implements it,  prefixed by "update_". The model is based on the original GODIVA model (Bohland et al., 2010).
 
-Usage: sim = godiva(length,condition)
+Usage: 
+
+	sim = godiva(length,condition)
 
          <length> - the length of the simulation in GODIVA time units
          <condition> - what condition to simulate:
@@ -14,7 +16,9 @@ Usage: sim = godiva(length,condition)
                        'DA'     - elevated dopamine levels
                        'WMF'    - what matter fibers impairment
 
-  Output: plot of the results
+  Output: 
+  
+  	  plot of the results
           
 	  sim - the simulation results
 	  
@@ -24,7 +28,9 @@ Usage: sim = godiva(length,condition)
 		   
                    sim.time (time steps used)
 
-  Next step: run plot_all to show output of simulation
+  Next step: 
+  
+  	     run plot_all to show output of simulation
   
              run plot_colors to show important info on simulation
 	     
