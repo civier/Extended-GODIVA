@@ -10,17 +10,18 @@ Usage:
 
 	sim = godiva(length,condition)
 
-         <length> - the length of the simulation in GODIVA time units
-         <condition> - what condition to simulate:
+	<length> - the length of the simulation in GODIVA time units
+	
+	<condition> - what condition to simulate:
                        'normal' - healthy individual
                        'DA'     - elevated dopamine levels
                        'WMF'    - what matter fibers impairment
 
   Output: 
   
-  	  plot of the results
+  	plot of the results
           
-	  sim - the simulation results
+	sim - the simulation results
 	  
                    sim.output (neural activation over time)
 		   
@@ -38,9 +39,9 @@ Usage:
 
   Config files: 
 			
-			1) Global_parameters.m includes the parameters used for each condition, as well as the utterance to be produced.
+	1) Global_parameters.m includes the parameters used for each condition, as well as the utterance to be produced.
 
-			2) ./defaults subdirectory includes a .mat for every component in the model. The file specifies the A and B parameters for all shunting equations used. The defaults can be overriden by including a .mat file with the same name in the ./custom subdirectory (but without the 'default_' prefix).
+	2) ./defaults subdirectory includes a .mat for every component in the model. The file specifies the A and B parameters for all shunting equations used. The defaults can be overriden by including a .mat file with the same name in the ./custom subdirectory (but without the 'default_' prefix).
 
 Author: Oren Civier
 
