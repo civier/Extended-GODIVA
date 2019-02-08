@@ -6,7 +6,7 @@ The code was used for the simulations of developmental stuttering resulting from
 
 The code implements the formulas given in the supplementary material of Civier et al. (2013). Each component has a function that implements it,  prefixed by "update_". The model is based on the original GODIVA model (Bohland et al., 2010).
 
-Code is also posted on Guenther's lab website: http://sites.bu.edu/guentherlab/software/godiva-source-code/ (2011 version)
+Code is also posted on the Guenther lab's website (Boston University): http://sites.bu.edu/guentherlab/software/godiva-source-code/ (2011 version)
 
 Usage: 
 
